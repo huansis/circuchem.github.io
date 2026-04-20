@@ -7,8 +7,8 @@ export default defineAppConfig({
     "address": "A509,LANGGUANG TECH PARK"
   },
   "logo": {
-    "darklogoUrl": "https://hidaddy.oss-cn-shanghai.aliyuncs.com/daddytemplate/fortemplate/dark-logo.png",
-    "lightlogoUrl": "https://hidaddy.oss-cn-shanghai.aliyuncs.com/daddytemplate/fortemplate/logo.png",
+    "darklogoUrl": "/img/logo.png",
+    "lightlogoUrl": "/img/logo.png",
     "logoName": "",
   },
   megaMenu: {
