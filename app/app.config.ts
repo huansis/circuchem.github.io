@@ -20,7 +20,7 @@ export default defineAppConfig({
     // 2. 三个分类的具体内容（图片、文字、描述）
     categories: [
       {
-        label: "Aroma Chemicals",
+        label: "！Aroma Chemicals",
         slug: "aroma-chemicals",
         description: "High-purity aroma chemicals for sophisticated fragrance and flavor synthesis.",
         image: "https://framerusercontent.com/images/5umROpQf1LFQZpL5TNpSAKSt0M.jpg"
