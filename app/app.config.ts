@@ -1,10 +1,10 @@
 // app.config.ts
 export default defineAppConfig({
   "base": {
-    "email": "inofo@daddytemplate.com",
-    "companyName": "Shengyuan",
-    "phone": "+86 (136) 5661-7631",
-    "address": "123 Main St, Anytown, CHina"
+    "email": "zhuhuan@circuchem.com",
+    "companyName": "CIRCUCHEM",
+    "phone": "+86 (138) 02553405",
+    "address": "A509,LANGGUANG TECH PARK"
   },
   "logo": {
     "darklogoUrl": "https://hidaddy.oss-cn-shanghai.aliyuncs.com/daddytemplate/fortemplate/dark-logo.png",
