@@ -280,13 +280,13 @@ Menthol and its related products are widely used in personal care applications.`
     "title": "Start your next",
     "sptext": "project",
     "contactInfo": [
-      { icon: 'Mail', label: 'Email', value: 'hello@dadymemplate.com' },
-      { icon: 'Phone', label: 'Phone', value: '+86 136 5661 7631' },
-      { icon: 'MapPin', label: 'Office', value: 'jiaxing, zhejiang, China' }
+      { icon: 'Mail', label: 'Email', value: 'info@circuchem.com' },
+      { icon: 'Phone', label: 'Phone', value: '+86 138 0255 3405' },
+      { icon: 'MapPin', label: 'Office', value: 'Guangdong, Jiangxi, China' }
     ],
-    "email": "inquiry@yourfactory.com",
-    "phone": "+86 136 5661 7631",
-    "address": "123 Business Avenue, Tech Industrial Zone, Shenzhen, China"
+    "email": "info@circuchem.com",
+    "phone": "+86 138 0255 3405",
+    "address": "No508, Langguang Tech Park, Nanshan Dist, Shenzhen, Guangdong, China"
   },
   "footer": {
     "emailmessage": "Request a Product Sample",
@@ -298,21 +298,21 @@ Menthol and its related products are widely used in personal care applications.`
   },
   "seo": {
     "index": {
-      "title": "老爹模板 - 首页",
-      "description": "老爹模板为外贸企业提供免费模板,帮助他们快速启动业务,提高效率。",
+      "title": "copper salts - 首页",
+      "description": "Circuchem provides unique understanding and professional expertise in the research, production and supply of high-purity copper salts ",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     },
     "about": {
       "tag": "About Us",
-      "title": "老爹模板 - 关于我们",
-      "description": "老爹模板为外贸企业提供免费模板,帮助他们快速启动业务,提高效率。",
+      "title": "Circuchem - About Us",
+      "description": "Circuchem provides unique understanding and professional expertise in the research, production and supply of high-purity copper salts",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     },
     "contact": {
-      "title": "老爹模板 - 联系我们",
-      "description": "老爹模板为外贸企业提供免费模板,帮助他们快速启动业务,提高效率。",
+      "title": "Circuchem - Contact",
+      "description": "Circuchem provides unique understanding and professional expertise in the research, production and supply of high-purity copper salts",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     }
