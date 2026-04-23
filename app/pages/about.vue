@@ -15,7 +15,7 @@
         </h1>
         <p v-scroll-reveal="{ delay: 0.3 }"
           class="text-[#001f4e]/90  text-lg max-w-2xl font-extralight leading-relaxed">
-           {{ siteConfig?.about?.description || '老爹模板为外贸企业提供免费模板,帮助他们快速启动业务,提高效率。' }}
+           {{ siteConfig?.about?.description || 'CIRCUCHEM' }}
         </p>
       </div>
     </section>
