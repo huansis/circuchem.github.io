@@ -27,7 +27,7 @@ export default defineAppConfig({
       },
       {
         label: "C series Copper Salts",
-        slug: "Raw Matrial-9999 copper",
+        slug: "Raw Matrial-Pure Copper",
         description: "High-purity copper salts for highend industrial applications.",
         image: "https://media.istockphoto.com/id/1315042436/zh/%E7%85%A7%E7%89%87/%E5%A9%A6%E5%A5%B3%E6%BA%96%E5%82%99%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E6%9C%83%E8%AD%B0%E5%9C%A8%E9%A4%90%E6%A1%8C%E4%B8%8A%E8%88%87%E7%B2%BE%E6%B2%B9%E6%93%B4%E6%95%A3%E5%8A%91%E9%86%AB%E7%94%A8%E8%8D%89%E8%97%A5%E4%B8%8D%E5%90%8C%E9%A1%9E%E5%9E%8B%E7%9A%84%E6%B2%B9%E5%92%8C%E7%B2%BE%E8%8F%AF%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E5%92%8C%E6%9B%BF%E4%BB%A3%E9%86%AB%E5%AD%B8%E6%A6%82%E5%BF%B5%E8%87%AA%E7%84%B6%E7%99%82%E6%B3%95.jpg?s=2048x2048&w=is&k=20&c=dM2hJdmCbWzgBuD43iPre0S1S9kt2Bfwg2HB3jqLykQ="
       },
@@ -50,7 +50,7 @@ export default defineAppConfig({
       "mainHeading": "High Purity Copper Salts",
       "description": "Leading manufacturer and exporter of high-purity copper chemicals.Backed by years of professional expertise and a global supply chain, we deliver consistent quality for feed, electroplating and industrial applications worldwide.",
       "ctaButton": "Discover our products",
-      "cardTitle": "Your Trusted Partner in China",
+      "cardTitle": "Your Professional High Purity Copper Salts Solutions",
       "cardDescription": "We simplify your sourcing with a specialized logistics system and reliable warehouse capacity. As a professional manufacturer of high-purity copper salts, from customized high-purity copper salt formulation in our production bases to global distribution, your satisfaction is our pursuit. Trust the experience that has been leading the high-purity copper salt industry with strict quality control and professional service.",
     },
     "case": {
@@ -62,14 +62,15 @@ export default defineAppConfig({
           brand: "CNAS certificated lab control",
           title: "copper Chemicals",
           products: [
-            { id: '00001', name: '2,3-PENTANEDIONE', cas: '600-14-6' },
-            { id: '00002', name: '2-METHYL-2-PENTENOIC ACID', cas: '3142-72-1' },
-            { id: '00003', name: '3-HYDROXY-2-BUTANONE', cas: '513-86-0' },
-            { id: '00004', name: '6-METHYL COUMARIN', cas: '92-48-8' },
+            { id: '00001', name: 'Basic Copper Chloride', cas: '1332-65-6' },
+            { id: '00002', name: 'Copper Sulphate Pentahydrate', cas: '7758-98-7' },
+            { id: '00003', name: 'Basic Copper Carbonate', cas: '12069-69-1' },
+            { id: '00004', name: 'Copper Oxide', cas: '1317-38-0' },
 
           ],
 
           image: "https://framerusercontent.com/images/5umROpQf1LFQZpL5TNpSAKSt0M.jpg",
+
           impact: ["40% Less Inventory Waste", "35% Faster Production", "20% More Accurate Forecasting", "25% Faster Fulfillment"]
         },
         {
