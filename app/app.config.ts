@@ -46,8 +46,8 @@ export default defineAppConfig({
   },
   "index": {
     "hero": {
-      "welcomeText": "SINCE 1980 | ISO 9001:2008 CERTIFIED",
-      "mainHeading": "Aroma Chemicals, Natural Products & Menthol Synthetic",
+      "welcomeText": "SINCE 2026 | ISO 9001:2008 CERTIFIED",
+      "mainHeading": "High Purity Copper Salts",
       "description": "Leading manufacturer and exporter of high-purity fragrance ingredients. Backed by 40 years of expertise and a global supply chain, we deliver sustainable quality for the perfumery and food industries worldwide.",
       "ctaButton": "Discover our products",
       "cardTitle": "Your Trusted Partner in China",
