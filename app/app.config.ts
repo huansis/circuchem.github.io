@@ -4,7 +4,7 @@ export default defineAppConfig({
     "email": "zhuhuan@circuchem.com",
     "companyName": "CIRCUCHEM",
     "phone": "+86 (138) 02553405",
-    "address": "A509,LANGGUANG TECH PARK"
+    "address": "A509,LANGGUANG TECH PARK, Nanshan Dist, Shenzhen, Guangdong, PRC"
   },
   "logo": {
     "darklogoUrl": "/img/logo.png",
@@ -15,52 +15,52 @@ export default defineAppConfig({
     // 1. 顶部标题区域
     header: {
       tag: "Product Portfolio",
-      title: "Chemical Solutions"
+      title: "High Purity Copper Salts Solutions"
     },
     // 2. 三个分类的具体内容（图片、文字、描述）
     categories: [
       {
-        label: "1111Aroma Chemicals",
-        slug: "aroma-chemicals",
-        description: "High-purity aroma chemicals for sophisticated fragrance and flavor synthesis.",
+        label: "G series Copper Salts",
+        slug: "Raw Matrial-Waste Copper Liquid",
+        description: "High-purity copper salts for feed and industrial applications.",
         image: "https://framerusercontent.com/images/5umROpQf1LFQZpL5TNpSAKSt0M.jpg"
       },
       {
-        label: "Natural Products",
-        slug: "natural-products",
-        description: "Pure botanical extractions maintaining the full spectrum of natural aromatic profiles.",
+        label: "C series Copper Salts",
+        slug: "Raw Matrial-9999 copper",
+        description: "High-purity copper salts for highend industrial applications.",
         image: "https://media.istockphoto.com/id/1315042436/zh/%E7%85%A7%E7%89%87/%E5%A9%A6%E5%A5%B3%E6%BA%96%E5%82%99%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E6%9C%83%E8%AD%B0%E5%9C%A8%E9%A4%90%E6%A1%8C%E4%B8%8A%E8%88%87%E7%B2%BE%E6%B2%B9%E6%93%B4%E6%95%A3%E5%8A%91%E9%86%AB%E7%94%A8%E8%8D%89%E8%97%A5%E4%B8%8D%E5%90%8C%E9%A1%9E%E5%9E%8B%E7%9A%84%E6%B2%B9%E5%92%8C%E7%B2%BE%E8%8F%AF%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E5%92%8C%E6%9B%BF%E4%BB%A3%E9%86%AB%E5%AD%B8%E6%A6%82%E5%BF%B5%E8%87%AA%E7%84%B6%E7%99%82%E6%B3%95.jpg?s=2048x2048&w=is&k=20&c=dM2hJdmCbWzgBuD43iPre0S1S9kt2Bfwg2HB3jqLykQ="
       },
       {
-        label: "Menthol Synthetic",
-        slug: "menthol-synthetic",
+        label: "Others",
+        slug: "By products",
         description: "Tailored chemical solutions designed for specific industrial research requirements.",
         image: "https://media.istockphoto.com/id/1405646574/zh/%E7%85%A7%E7%89%87/translucent-menthol-crystals-and-green-mint-leaves-falling-on-white-background.webp?s=2048x2048&w=is&k=20&c=ckqSAmSzW05UuHudasbLuHwHSKJW__rrw6W858ga5ZQ="
       }
     ],
     // 3. 底部认证与位置信息
     footer: {
-      certifications: ["ISO 9001:2008 CERTIFIED", "REACH COMPLIANT"],
-      location: "ShengYuan • JiaXing • China"
+      certifications: ["ISO 9001 / 14001 / 45001 / 27001 CERTIFIED"],
+      location: "GUANGDONG/ JiaXing • CHINA & THAILAND"
     }
   },
   "index": {
     "hero": {
-      "welcomeText": "SINCE 2026 | ISO 9001:2008 CERTIFIED",
+      "welcomeText": "SINCE 2020| ISO 9001 / 14001 / 45001 / 27001 CERTIFIED",
       "mainHeading": "High Purity Copper Salts",
-      "description": "Leading manufacturer and exporter of high-purity fragrance ingredients. Backed by 40 years of expertise and a global supply chain, we deliver sustainable quality for the perfumery and food industries worldwide.",
+      "description": "Leading manufacturer and exporter of high-purity copper chemicals.Backed by years of professional expertise and a global supply chain, we deliver consistent quality for feed, electroplating and industrial applications worldwide.",
       "ctaButton": "Discover our products",
       "cardTitle": "Your Trusted Partner in China",
-      "cardDescription": "We simplify your sourcing with a specialized logistics system and reliable warehouse capacity. From custom synthesis in our labs to global distribution, your satisfaction is our pleasure. Trust the experience that has been leading the industry since 1980.",
+      "cardDescription": "We simplify your sourcing with a specialized logistics system and reliable warehouse capacity. As a professional manufacturer of high-purity copper salts, from customized high-purity copper salt formulation in our production bases to global distribution, your satisfaction is our pursuit. Trust the experience that has been leading the high-purity copper salt industry with strict quality control and professional service.",
     },
     "case": {
       "tag": "CATEGORY",
       "mainHeading": "Core Excellence",
-      "subtitle": "Since 1980, we have specialized in high-purity aromachemicalsand natural products.",
+      "subtitle": "SINCE 2020, we have specialized in high-purity copper salts products.",
       "product": [
         {
-          brand: "Sheng Yuan Lab Control",
-          title: "Aroma Chemicals",
+          brand: "CNAS certificated lab control",
+          title: "copper Chemicals",
           products: [
             { id: '00001', name: '2,3-PENTANEDIONE', cas: '600-14-6' },
             { id: '00002', name: '2-METHYL-2-PENTENOIC ACID', cas: '3142-72-1' },
