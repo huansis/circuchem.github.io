@@ -1,75 +1,12 @@
-# 普通用户模板使用方法
+# Circuchem Official Website
 
-使用方法请访问：[老爹模板DaddyTemplate 文档](https://www.daddytemplate.com/dev-docs)
+这是 **Circuchem** 的官方网站源代码仓库。
 
-# 如需要部署服务以及配置服务(¥199.00),可直接和我取得联系13656617631
+## 公司简介
+Circuchem 致力于提供高品质的化学产品（如电镀级硫酸铜、高纯碳酸铜等），并专注于 PCB 废水处理及铜循环利用方案。
 
-## 模板预览地址
-[模板预览地址](https://www.daddytemplate.com/previews/template03/index.html)
+## 访问地址
+点击预览：[https://circuchem.com](https://circuchem.com)
 
-# 开发者使用方法
-安装依赖
-
-```bash
-
-
-# pnpm
-pnpm install
-
-
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
+---
+© 2026 Circuchem. All rights reserved.
