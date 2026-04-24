@@ -155,7 +155,7 @@ export default defineAppConfig({
         },
         {
           question: "Is particle size customizable?",
-          answer: Yes. We can control particle size distribution based on your application requirements, including specific mesh ranges or D50 targets."
+          answer: "Yes. We can control particle size distribution based on your application requirements, including specific mesh ranges or D50 targets."
         }
       ]
     },
