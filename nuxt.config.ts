@@ -15,12 +15,10 @@ export default defineNuxtConfig({
       ]
     }
   },
-
-  // ✅ 这里我帮你加好了 网站标题 + FAVICON 图标配置
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/',
     pageTransition: { name: 'page', mode: 'out-in' },
-    // 👇 👇 👇 从这里开始是新加的
+        // 👇 👇 👇 从这里开始是新加的
     head: {
       title: "Circuchem - Professional Copper Chemicals Supplier",
       link: [
@@ -33,7 +31,6 @@ export default defineNuxtConfig({
     }
     // 👆 👆 👆 新加结束
   },
-
   modules: ['@nuxt/content', '@nuxtjs/sitemap', '@nuxt/image', 'shadcn-nuxt', ],
   shadcn: {
     /**
@@ -54,7 +51,7 @@ export default defineNuxtConfig({
   },
   // 修正 CSS 路径
   css: ['~/assets/css/main.css'],
-  devtools: enabled: true },
+  devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
   postcss: {
     plugins: {
@@ -85,4 +82,7 @@ export default defineNuxtConfig({
   sitemap: {
     strictNuxtContentAds: true // 自动包含所有 nuxt-content 里的文章
   }
+
+
+
 })
