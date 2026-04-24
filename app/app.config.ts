@@ -69,7 +69,7 @@ export default defineAppConfig({
 
           ],
 
-          image: "/img/G-Copper.png",
+          image: "/img/G-series.png",
 
           impact: ["40% Less Inventory Waste", "35% Faster Production", "20% More Accurate Forecasting", "25% Faster Fulfillment"]
         },
