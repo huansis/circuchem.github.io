@@ -18,7 +18,6 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/',
     pageTransition: { name: 'page', mode: 'out-in' },
-        // 👇 👇 👇 从这里开始是新加的
     head: {
       title: "Circuchem - Professional Copper Chemicals Supplier",
       link: [
@@ -29,7 +28,6 @@ export default defineNuxtConfig({
         { rel: "icon", href: "/favicon.ico" }
       ]
     }
-    // 👆 👆 👆 新加结束
   },
   modules: ['@nuxt/content', '@nuxtjs/sitemap', '@nuxt/image', 'shadcn-nuxt', ],
   shadcn: {
