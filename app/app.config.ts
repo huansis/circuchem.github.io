@@ -59,8 +59,8 @@ export default defineAppConfig({
       "subtitle": "SINCE 2020, we have specialized in high-purity copper salts products.",
       "product": [
         {
-          brand: "CNAS certificated lab control",
-          title: "copper Chemicals",
+          brand: "CNAS Certificated Lab Control",
+          title: "G series Copper Chemicals",
           products: [
             { id: '00001', name: 'Basic Copper Chloride', cas: '1332-65-6' },
             { id: '00002', name: 'Copper Sulphate Pentahydrate', cas: '7758-98-7' },
@@ -74,22 +74,19 @@ export default defineAppConfig({
           impact: ["40% Less Inventory Waste", "35% Faster Production", "20% More Accurate Forecasting", "25% Faster Fulfillment"]
         },
         {
-          brand: "Sheng Yuan Lab Control",
-          title: "Natural Products",
+          brand: "CNAS Certificated Lab Control",
+          title: "C series Copper Chemicals",
           products: [
-            { id: '00001', name: 'ANETHOLE', cas: '104-46-1' },
-            { id: '00002', name: 'BENZALDEHYDE NATURAL', cas: '100-52-7' },
-            { id: '00003', name: 'CASSIA OIL', cas: '8007-80-5' },
-            { id: '00004', name: 'CEDARWOOD OIL', cas: '8000-27-9' },
-            { id: '00005', name: 'CITRONELLA OIL', cas: '8000-29-1' }
+            { id: '00001', name: 'Basic Copper Carbonate', cas: '12069-69-1' },
+            { id: '00002', name: 'Copper Oxide', cas: '1317-38-0' },
           ],
 
           image: "https://framerusercontent.com/images/lQWHGHShPHUTMe37bAqGhhIDkI.jpg",
 
         },
         {
-          brand: "Sheng Yuan Lab Control",
-          title: "Menthol Synthetic",
+          brand: "CNAS Certificated Lab Control",
+          title: "Zn/Li/Ni Chemicals",
           description: `Production Route: M-Cresol → Thymol → L-Menthol & D-Menthol We are a manufacturer of all raw materials along this production chain and are the largest producer of cresol. Our synthetic menthol is produced through our joint venture company, Anhui Haihua, for which Shengyuan serves as the global exclusive agency.
 
 Menthol and its related products are widely used in personal care applications.`,
@@ -283,11 +280,11 @@ Menthol and its related products are widely used in personal care applications.`
     "contactInfo": [
       { icon: 'Mail', label: 'Email', value: 'info@circuchem.com' },
       { icon: 'Phone', label: 'Phone', value: '+86 138 0255 3405' },
-      { icon: 'MapPin', label: 'Office', value: 'Guangdong, Jiangxi, China' }
+      { icon: 'MapPin', label: 'Office', value: 'Guangdong/Jiangxi, China & Thailand' }
     ],
     "email": "info@circuchem.com",
     "phone": "+86 138 0255 3405",
-    "address": "No508, Langguang Tech Park, Nanshan Dist, Shenzhen, Guangdong, China"
+    "address": "No509, Langguang Tech Park, Nanshan Dist, Shenzhen, Guangdong, China"
   },
   "footer": {
     "emailmessage": "Request a Product Sample",
