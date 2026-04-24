@@ -69,7 +69,7 @@ export default defineAppConfig({
 
           ],
 
-          image: "https://framerusercontent.com/images/5umROpQf1LFQZpL5TNpSAKSt0M.jpg",
+          image: "huansis/circuchem.github.io/public/img/G-Copper.png",
 
           impact: ["40% Less Inventory Waste", "35% Faster Production", "20% More Accurate Forecasting", "25% Faster Fulfillment"]
         },
@@ -81,7 +81,7 @@ export default defineAppConfig({
             { id: '00002', name: 'Copper Oxide', cas: '1317-38-0' },
           ],
 
-          image: "https://framerusercontent.com/images/lQWHGHShPHUTMe37bAqGhhIDkI.jpg",
+          image: "huansis/circuchem.github.io/public/img/C-Copper.png",
 
         },
         {
@@ -90,7 +90,7 @@ export default defineAppConfig({
           description: `Production Route: M-Cresol → Thymol → L-Menthol & D-Menthol We are a manufacturer of all raw materials along this production chain and are the largest producer of cresol. Our synthetic menthol is produced through our joint venture company, Anhui Haihua, for which Shengyuan serves as the global exclusive agency.
 
 Menthol and its related products are widely used in personal care applications.`,
-          image: "https://media.istockphoto.com/id/1405646574/zh/%E7%85%A7%E7%89%87/translucent-menthol-crystals-and-green-mint-leaves-falling-on-white-background.webp?s=2048x2048&w=is&k=20&c=ckqSAmSzW05UuHudasbLuHwHSKJW__rrw6W858ga5ZQ=",
+          image: "huansis/circuchem.github.io/public/img/Others.png",
           impact: ["115% Fuel Efficiency Increase", "12,000 Tons CO2 Saved Yearly", "100% On-time Delivery Rate", "Real-time Fleet Visibility"]
         }
       ]
