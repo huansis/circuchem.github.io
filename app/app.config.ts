@@ -87,9 +87,7 @@ export default defineAppConfig({
         {
           brand: "CNAS Certificated Lab Control",
           title: "Zn/Li/Ni Chemicals",
-          description: `Production Route: M-Cresol → Thymol → L-Menthol & D-Menthol We are a manufacturer of all raw materials along this production chain and are the largest producer of cresol. Our synthetic menthol is produced through our joint venture company, Anhui Haihua, for which Shengyuan serves as the global exclusive agency.
-
-Menthol and its related products are widely used in personal care applications.`,
+          description: Zinc, Lithium, and Nickel salt series are fully based on environmentally friendly recycled raw materials, refined through advanced purification processes to deliver both sustainability and consistent quality. Specifically, basic zinc chloride meets feed additive grade standards, while lithium carbonate and nickel sulfate are qualified for high-end industrial applications, supporting customers in building greener supply chains.`,
           image: "/img/Others.png",
           impact: ["115% Fuel Efficiency Increase", "12,000 Tons CO2 Saved Yearly", "100% On-time Delivery Rate", "Real-time Fleet Visibility"]
         }
