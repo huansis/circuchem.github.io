@@ -81,7 +81,7 @@ export default defineAppConfig({
             { id: '00002', name: 'Copper Oxide', cas: '1317-38-0' },
           ],
 
-          image: "/img/C-Copper.png",
+          image: "/img/C-series.png",
 
         },
         {
