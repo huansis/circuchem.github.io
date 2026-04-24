@@ -134,7 +134,7 @@ export default defineAppConfig({
     },
     "faq": {
       "tag": "FAQS",
-      "mainHeading": " We've Got the Answers You're Looking For",
+      "mainHeading": " Copper chemicals for automotive, catalysis, wood protection，feed and electroplating",
       "subtitle": "Quick answers to your questions.",
       "faqs": [
         {
