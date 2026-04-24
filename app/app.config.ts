@@ -135,27 +135,27 @@ export default defineAppConfig({
     "faq": {
       "tag": "FAQS",
       "mainHeading": " We've Got the Answers You're Looking For",
-      "subtitle": "Quick answers to your AI automation questions.",
+      "subtitle": "Quick answers to your questions.",
       "faqs": [
         {
-          question: "How can AI automation help my business?",
-          answer: "AI automation streamlines your repetitive tasks, reduces human error, and provides data-driven insights, allowing your team to focus on strategic growth activities."
+          question: "What is the purity level of your copper salts?",
+          answer: "Our products are manufactured using refined copper sources and controlled processes to ensure high purity. For example, our C Series basic copper carbonate typically reaches ≥56% Cu content with strict control over heavy metals and chloride levels."
         },
         {
-          question: "Is AI automation difficult to integrate?",
-          answer: "Not at all. Our platform is designed for seamless integration with your existing workflow, requiring minimal technical setup to get started."
+          question: "What makes your copper salts different from conventional products?",
+          answer: "The difference lies in process control and final-stage purification. We refine the material at the last stage of production, which results in better crystallinity, lower impurities, and more stable performance in downstream applications."
         },
         {
-          question: "What industries can benefit from AI automation?",
-          answer: "From e-commerce and logistics to manufacturing and finance, any industry with standardized processes can see immediate ROI from AI implementation."
+          question: "Do impurities really impact performance?",
+          answer: "Yes. Even trace impurities can interfere with catalytic activity, electroplating stability, or material consistency. Our products are designed to minimize such risks."
         },
         {
-          question: "Do I need technical knowledge to use AI automation?",
-          answer: "No. Our user-friendly dashboard and pre-built templates make it easy for anyone to deploy and manage sophisticated AI agents without writing code."
+          question: "Can you provide COA and testing methods?",
+          answer: "Yes. Each batch is supplied with a Certificate of Analysis (COA), including detailed parameters and testing methods upon request."
         },
         {
-          question: "What kind of support do you offer?",
-          answer: "We provide 24/7 technical support, comprehensive documentation, and a dedicated success manager to ensure your transition to AI is smooth and effective."
+          question: "Is particle size customizable?",
+          answer: Yes. We can control particle size distribution based on your application requirements, including specific mesh ranges or D50 targets."
         }
       ]
     },
