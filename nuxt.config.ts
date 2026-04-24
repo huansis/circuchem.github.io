@@ -15,10 +15,25 @@ export default defineNuxtConfig({
       ]
     }
   },
+
+  // ✅ 这里我帮你加好了 网站标题 + FAVICON 图标配置
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/',
     pageTransition: { name: 'page', mode: 'out-in' },
+    // 👇 👇 👇 从这里开始是新加的
+    head: {
+      title: "Circuchem - Professional Copper Chemicals Supplier",
+      link: [
+        { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
+        { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" },
+        { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" },
+        { rel: "manifest", href: "/site.webmanifest" },
+        { rel: "icon", href: "/favicon.ico" }
+      ]
+    }
+    // 👆 👆 👆 新加结束
   },
+
   modules: ['@nuxt/content', '@nuxtjs/sitemap', '@nuxt/image', 'shadcn-nuxt', ],
   shadcn: {
     /**
@@ -39,7 +54,7 @@ export default defineNuxtConfig({
   },
   // 修正 CSS 路径
   css: ['~/assets/css/main.css'],
-  devtools: { enabled: true },
+  devtools: enabled: true },
   compatibilityDate: '2024-04-03',
   postcss: {
     plugins: {
@@ -70,7 +85,4 @@ export default defineNuxtConfig({
   sitemap: {
     strictNuxtContentAds: true // 自动包含所有 nuxt-content 里的文章
   }
-
-
-
 })
