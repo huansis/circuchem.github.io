@@ -161,8 +161,8 @@ export default defineAppConfig({
     },
     "cart": {
       "tag": "Cart",
-      "mainHeading": "Book a Call Today and Start Automating",
-      "subtitle": "1Get started with AI automation today and watch your business grow."
+      "mainHeading": "Start From a Product Specification Sheet",
+      "subtitle": "Get started with a detailed inquri."
     },
   },
   "productFeature": {
