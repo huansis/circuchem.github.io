@@ -24,7 +24,7 @@ const brandLogos = [
 
 const { data: rawProducts, status } = await useAsyncData('products-collection', () => {
   return queryCollection('products')
-    .where('path', 'LIKE', '/products/aroma-chemicals/%') 
+    .where('path', 'LIKE', '/products/%') 
     .all()
 })
 
@@ -43,7 +43,7 @@ const formattedProducts = computed(() => {
       id: (p.meta?.pid || fileName).toString().toUpperCase(), 
       name: p.title || 'Untitled Product',
       cas: String(p.meta?.cas || 'N/A'), // 强制转字符串
-      fema: String(p.meta?.fema || '-'),
+      fema: String(p.meta?.EC_No || '-'),
       grade: p.meta?.grade || 'Food Grade',
       purity: p.meta?.purity || '99%+ Purity',
       molecule_img: p.meta?.molecule_img || '',
@@ -53,7 +53,7 @@ const formattedProducts = computed(() => {
 })
 // seo meta
 useSeoMeta({
-  title: () => siteConfig.value?.seo?.index.title || 'Default Title',
+  title: () => siteConfig.value?.seo?.index.title || 'high purity copper salts',
   description: () => siteConfig.value?.seo?.index.description || 'Default description',
   ogTitle: () => siteConfig.value?.seo?.index.title || 'Default Title',
   ogDescription: () => siteConfig.value?.seo?.index.description || 'Default description',

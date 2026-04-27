@@ -24,7 +24,7 @@
       <ImageScrollWall :images="myImages" :speed="100" />
     <!-- 2. Stats Section: 数据证明 -->
    <StatPillsSection :data="siteConfig?.about?.stats" />
-   <TeamSection :data="siteConfig?.about?.team" />
+   <!-- <TeamSection :data="siteConfig?.about?.team" /> -->
   
 
 

@@ -586,91 +586,86 @@ const appConfig0 = defineAppConfig({
     "email": "zhuhuan@circuchem.com",
     "companyName": "CIRCUCHEM",
     "phone": "+86 (138) 02553405",
-    "address": "A509,LANGGUANG TECH PARK"
+    "address": "A509,LANGGUANG TECH PARK, Nanshan Dist, Shenzhen, Guangdong, PRC"
   },
   "logo": {
     "darklogoUrl": "/img/logo.png",
     "lightlogoUrl": "/img/logo.png",
-    "logoName": ""
+    "logoName": "CIRCUCHEM"
   },
   megaMenu: {
     // 1. 顶部标题区域
     header: {
       tag: "Product Portfolio",
-      title: "Chemical Solutions"
+      title: "High Purity Copper Salts Solutions"
     },
     // 2. 三个分类的具体内容（图片、文字、描述）
     categories: [
       {
-        label: "\uFF01Aroma Chemicals",
-        slug: "aroma-chemicals",
-        description: "High-purity aroma chemicals for sophisticated fragrance and flavor synthesis.",
+        label: "G series Copper Salts",
+        slug: "Raw Matrial-Waste Copper Liquid",
+        description: "High-purity copper salts for feed and industrial applications.",
         image: "https://framerusercontent.com/images/5umROpQf1LFQZpL5TNpSAKSt0M.jpg"
       },
       {
-        label: "Natural Products",
-        slug: "natural-products",
-        description: "Pure botanical extractions maintaining the full spectrum of natural aromatic profiles.",
+        label: "C series Copper Salts",
+        slug: "Raw Matrial-Pure Copper",
+        description: "High-purity copper salts for highend industrial applications.",
         image: "https://media.istockphoto.com/id/1315042436/zh/%E7%85%A7%E7%89%87/%E5%A9%A6%E5%A5%B3%E6%BA%96%E5%82%99%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E6%9C%83%E8%AD%B0%E5%9C%A8%E9%A4%90%E6%A1%8C%E4%B8%8A%E8%88%87%E7%B2%BE%E6%B2%B9%E6%93%B4%E6%95%A3%E5%8A%91%E9%86%AB%E7%94%A8%E8%8D%89%E8%97%A5%E4%B8%8D%E5%90%8C%E9%A1%9E%E5%9E%8B%E7%9A%84%E6%B2%B9%E5%92%8C%E7%B2%BE%E8%8F%AF%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E5%92%8C%E6%9B%BF%E4%BB%A3%E9%86%AB%E5%AD%B8%E6%A6%82%E5%BF%B5%E8%87%AA%E7%84%B6%E7%99%82%E6%B3%95.jpg?s=2048x2048&w=is&k=20&c=dM2hJdmCbWzgBuD43iPre0S1S9kt2Bfwg2HB3jqLykQ="
       },
       {
-        label: "Menthol Synthetic",
-        slug: "menthol-synthetic",
+        label: "Others",
+        slug: "By products",
         description: "Tailored chemical solutions designed for specific industrial research requirements.",
         image: "https://media.istockphoto.com/id/1405646574/zh/%E7%85%A7%E7%89%87/translucent-menthol-crystals-and-green-mint-leaves-falling-on-white-background.webp?s=2048x2048&w=is&k=20&c=ckqSAmSzW05UuHudasbLuHwHSKJW__rrw6W858ga5ZQ="
       }
     ],
     // 3. 底部认证与位置信息
     footer: {
-      certifications: ["ISO 9001:2008 CERTIFIED", "REACH COMPLIANT"],
-      location: "ShengYuan \u2022 JiaXing \u2022 China"
+      certifications: ["ISO 9001 / 14001 / 45001 / 27001 CERTIFIED"],
+      location: "GUANGDONG/ JiaXing \u2022 CHINA & THAILAND"
     }
   },
   "index": {
     "hero": {
-      "welcomeText": "SINCE 1980 | ISO 9001:2008 CERTIFIED",
-      "mainHeading": "Aroma Chemicals, Natural Products & Menthol Synthetic",
-      "description": "Leading manufacturer and exporter of high-purity fragrance ingredients. Backed by 40 years of expertise and a global supply chain, we deliver sustainable quality for the perfumery and food industries worldwide.",
+      "welcomeText": "SINCE 2020| ISO 9001 / 14001 / 45001 / 27001 CERTIFIED",
+      "mainHeading": "High Purity Copper Salts",
+      "description": "Leading manufacturer and exporter of high-purity copper chemicals.Backed by years of professional expertise and a global supply chain, we deliver consistent quality for feed, electroplating and industrial applications worldwide.",
       "ctaButton": "Discover our products",
-      "cardTitle": "Your Trusted Partner in China",
-      "cardDescription": "We simplify your sourcing with a specialized logistics system and reliable warehouse capacity. From custom synthesis in our labs to global distribution, your satisfaction is our pleasure. Trust the experience that has been leading the industry since 1980."
+      "cardTitle": "Your Professional High Purity Copper Salts Solutions",
+      "cardDescription": "We simplify your sourcing with a specialized logistics system and reliable warehouse capacity. As a professional manufacturer of high-purity copper salts, from customized high-purity copper salt formulation in our production bases to global distribution, your satisfaction is our pursuit. Trust the experience that has been leading the high-purity copper salt industry with strict quality control and professional service."
     },
     "case": {
       "tag": "CATEGORY",
       "mainHeading": "Core Excellence",
-      "subtitle": "Since 1980, we have specialized in high-purity aromachemicalsand natural products.",
+      "subtitle": "SINCE 2020, we have specialized in high-purity copper salts products.",
       "product": [
         {
-          brand: "Sheng Yuan Lab Control",
-          title: "Aroma Chemicals",
+          brand: "CNAS Certificated Lab Control",
+          title: "G series Copper Chemicals",
           products: [
-            { id: "00001", name: "2,3-PENTANEDIONE", cas: "600-14-6" },
-            { id: "00002", name: "2-METHYL-2-PENTENOIC ACID", cas: "3142-72-1" },
-            { id: "00003", name: "3-HYDROXY-2-BUTANONE", cas: "513-86-0" },
-            { id: "00004", name: "6-METHYL COUMARIN", cas: "92-48-8" }
+            { id: "00001", name: "Basic Copper Chloride", cas: "1332-65-6" },
+            { id: "00002", name: "Copper Sulphate Pentahydrate", cas: "7758-98-7" },
+            { id: "00003", name: "Basic Copper Carbonate", cas: "12069-69-1" },
+            { id: "00004", name: "Copper Oxide", cas: "1317-38-0" }
           ],
-          image: "https://framerusercontent.com/images/5umROpQf1LFQZpL5TNpSAKSt0M.jpg",
+          image: "/img/G-series.png",
           impact: ["40% Less Inventory Waste", "35% Faster Production", "20% More Accurate Forecasting", "25% Faster Fulfillment"]
         },
         {
-          brand: "Sheng Yuan Lab Control",
-          title: "Natural Products",
+          brand: "CNAS Certificated Lab Control",
+          title: "C series Copper Chemicals",
           products: [
-            { id: "00001", name: "ANETHOLE", cas: "104-46-1" },
-            { id: "00002", name: "BENZALDEHYDE NATURAL", cas: "100-52-7" },
-            { id: "00003", name: "CASSIA OIL", cas: "8007-80-5" },
-            { id: "00004", name: "CEDARWOOD OIL", cas: "8000-27-9" },
-            { id: "00005", name: "CITRONELLA OIL", cas: "8000-29-1" }
+            { id: "00001", name: "Basic Copper Carbonate", cas: "12069-69-1" },
+            { id: "00002", name: "Copper Oxide", cas: "1317-38-0" }
           ],
-          image: "https://framerusercontent.com/images/lQWHGHShPHUTMe37bAqGhhIDkI.jpg"
+          image: "/img/C-series.png"
         },
         {
-          brand: "Sheng Yuan Lab Control",
-          title: "Menthol Synthetic",
-          description: `Production Route: M-Cresol \u2192 Thymol \u2192 L-Menthol & D-Menthol We are a manufacturer of all raw materials along this production chain and are the largest producer of cresol. Our synthetic menthol is produced through our joint venture company, Anhui Haihua, for which Shengyuan serves as the global exclusive agency.
-
-Menthol and its related products are widely used in personal care applications.`,
-          image: "https://media.istockphoto.com/id/1405646574/zh/%E7%85%A7%E7%89%87/translucent-menthol-crystals-and-green-mint-leaves-falling-on-white-background.webp?s=2048x2048&w=is&k=20&c=ckqSAmSzW05UuHudasbLuHwHSKJW__rrw6W858ga5ZQ=",
+          brand: "CNAS Certificated Lab Control",
+          title: "Zn/Li/Ni Chemicals",
+          description: "Zinc, Lithium, and Nickel salt series are fully based on environmentally friendly recycled raw materials, refined through advanced purification processes to deliver both sustainability and consistent quality. Specifically, basic zinc chloride meets feed additive grade standards, while lithium carbonate and nickel sulfate are qualified for high-end industrial applications, supporting customers in building greener supply chains.",
+          image: "/img/Others.png",
           impact: ["115% Fuel Efficiency Increase", "12,000 Tons CO2 Saved Yearly", "100% On-time Delivery Rate", "Real-time Fleet Visibility"]
         }
       ]
@@ -716,35 +711,35 @@ Menthol and its related products are widely used in personal care applications.`
     },
     "faq": {
       "tag": "FAQS",
-      "mainHeading": " We've Got the Answers You're Looking For",
-      "subtitle": "Quick answers to your AI automation questions.",
+      "mainHeading": " Copper chemicals for automotive, catalysis, wood protection\uFF0Cfeed and electroplating",
+      "subtitle": "Quick answers to your questions.",
       "faqs": [
         {
-          question: "How can AI automation help my business?",
-          answer: "AI automation streamlines your repetitive tasks, reduces human error, and provides data-driven insights, allowing your team to focus on strategic growth activities."
+          question: "What is the purity level of your copper salts?",
+          answer: "Our products are manufactured using refined copper sources and controlled processes to ensure high purity. For example, our C Series basic copper carbonate typically reaches \u226556% Cu content with strict control over heavy metals and chloride levels."
         },
         {
-          question: "Is AI automation difficult to integrate?",
-          answer: "Not at all. Our platform is designed for seamless integration with your existing workflow, requiring minimal technical setup to get started."
+          question: "What makes your copper salts different from conventional products?",
+          answer: "The difference lies in process control and final-stage purification. We refine the material at the last stage of production, which results in better crystallinity, lower impurities, and more stable performance in downstream applications."
         },
         {
-          question: "What industries can benefit from AI automation?",
-          answer: "From e-commerce and logistics to manufacturing and finance, any industry with standardized processes can see immediate ROI from AI implementation."
+          question: "Do impurities really impact performance?",
+          answer: "Yes. Even trace impurities can interfere with catalytic activity, electroplating stability, or material consistency. Our products are designed to minimize such risks."
         },
         {
-          question: "Do I need technical knowledge to use AI automation?",
-          answer: "No. Our user-friendly dashboard and pre-built templates make it easy for anyone to deploy and manage sophisticated AI agents without writing code."
+          question: "Can you provide COA and testing methods?",
+          answer: "Yes. Each batch is supplied with a Certificate of Analysis (COA), including detailed parameters and testing methods upon request."
         },
         {
-          question: "What kind of support do you offer?",
-          answer: "We provide 24/7 technical support, comprehensive documentation, and a dedicated success manager to ensure your transition to AI is smooth and effective."
+          question: "Is particle size customizable?",
+          answer: "Yes. We can control particle size distribution based on your application requirements, including specific mesh ranges or D50 targets."
         }
       ]
     },
     "cart": {
       "tag": "Cart",
-      "mainHeading": "Book a Call Today and Start Automating",
-      "subtitle": "1Get started with AI automation today and watch your business grow."
+      "mainHeading": "Start From a Product Specification Sheet",
+      "subtitle": "Get started with a detailed inquri."
     }
   },
   "productFeature": {
@@ -857,13 +852,13 @@ Menthol and its related products are widely used in personal care applications.`
     "title": "Start your next",
     "sptext": "project",
     "contactInfo": [
-      { icon: "Mail", label: "Email", value: "hello@dadymemplate.com" },
-      { icon: "Phone", label: "Phone", value: "+86 136 5661 7631" },
-      { icon: "MapPin", label: "Office", value: "jiaxing, zhejiang, China" }
+      { icon: "Mail", label: "Email", value: "info@circuchem.com" },
+      { icon: "Phone", label: "Phone", value: "+86 138 0255 3405" },
+      { icon: "MapPin", label: "Office", value: "Guangdong/Jiangxi, China & Thailand" }
     ],
-    "email": "inquiry@yourfactory.com",
-    "phone": "+86 136 5661 7631",
-    "address": "123 Business Avenue, Tech Industrial Zone, Shenzhen, China"
+    "email": "info@circuchem.com",
+    "phone": "+86 138 0255 3405",
+    "address": "No509, Langguang Tech Park, Nanshan Dist, Shenzhen, Guangdong, China"
   },
   "footer": {
     "emailmessage": "Request a Product Sample",
@@ -875,21 +870,21 @@ Menthol and its related products are widely used in personal care applications.`
   },
   "seo": {
     "index": {
-      "title": "\u8001\u7239\u6A21\u677F - \u9996\u9875",
-      "description": "\u8001\u7239\u6A21\u677F\u4E3A\u5916\u8D38\u4F01\u4E1A\u63D0\u4F9B\u514D\u8D39\u6A21\u677F,\u5E2E\u52A9\u4ED6\u4EEC\u5FEB\u901F\u542F\u52A8\u4E1A\u52A1,\u63D0\u9AD8\u6548\u7387\u3002",
+      "title": "copper salts - \u9996\u9875",
+      "description": "Circuchem provides unique understanding and professional expertise in the research, production and supply of high-purity copper salts ",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     },
     "about": {
       "tag": "About Us",
-      "title": "\u8001\u7239\u6A21\u677F - \u5173\u4E8E\u6211\u4EEC",
-      "description": "\u8001\u7239\u6A21\u677F\u4E3A\u5916\u8D38\u4F01\u4E1A\u63D0\u4F9B\u514D\u8D39\u6A21\u677F,\u5E2E\u52A9\u4ED6\u4EEC\u5FEB\u901F\u542F\u52A8\u4E1A\u52A1,\u63D0\u9AD8\u6548\u7387\u3002",
+      "title": "Circuchem - About Us",
+      "description": "Circuchem provides unique understanding and professional expertise in the research, production and supply of high-purity copper salts",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     },
     "contact": {
-      "title": "\u8001\u7239\u6A21\u677F - \u8054\u7CFB\u6211\u4EEC",
-      "description": "\u8001\u7239\u6A21\u677F\u4E3A\u5916\u8D38\u4F01\u4E1A\u63D0\u4F9B\u514D\u8D39\u6A21\u677F,\u5E2E\u52A9\u4ED6\u4EEC\u5FEB\u901F\u542F\u52A8\u4E1A\u52A1,\u63D0\u9AD8\u6548\u7387\u3002",
+      "title": "Circuchem - Contact",
+      "description": "Circuchem provides unique understanding and professional expertise in the research, production and supply of high-purity copper salts",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     }
@@ -969,7 +964,7 @@ const _inlineRuntimeConfig = {
         "headers": {
           "Content-Type": "text/xml; charset=UTF-8",
           "Cache-Control": "public, max-age=600, must-revalidate",
-          "X-Sitemap-Prerendered": "2026-04-20T12:12:38.675Z"
+          "X-Sitemap-Prerendered": "2026-04-27T13:32:36.827Z"
         }
       },
       "/": {
@@ -2629,7 +2624,7 @@ const _b6ZfQl7YW3ObCpYoDsAOPu_aH0T3XtKYfmHXC2z527E = defineNitroPlugin(async (ni
 
 const rootDir = "/Users/zhuxiaoming/Documents/trae_projects/circuchem.github.io";
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[],"title":"Circuchem - Professional Copper Chemicals Supplier"};
 
 const appRootTag = "div";
 
@@ -2736,22 +2731,7 @@ _q9LCntQckHrwXwXcLbgl09eGqq0it7w4HdhNDoKo67M,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
-const assets = {
-  "/index.mjs": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"3a89a-goAjH/DArWFXxMi1PQOL0Nf6NZ4\"",
-    "mtime": "2026-04-20T12:12:41.656Z",
-    "size": 239770,
-    "path": "index.mjs"
-  },
-  "/index.mjs.map": {
-    "type": "application/json",
-    "etag": "\"f6c42-BmpXRwmEKM4Szw7CUpE+4kLSbUk\"",
-    "mtime": "2026-04-20T12:12:41.657Z",
-    "size": 1010754,
-    "path": "index.mjs.map"
-  }
-};
+const assets = {};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));
@@ -3373,7 +3353,7 @@ const _br2NwT = eventHandler(async (e) => {
 });
 
 const checksums = {
-  "products": "v3.5.0--icSe-LiyohlCYxHSiDf8bDairMxk9i7gqRK51DLdgss"
+  "products": "v3.5.0--Qr9Lk_xKXwQRLb5hLoUrfR_q8G9ZJlsD6UDqouvbOws"
 };
 const checksumsStructure = {
   "products": "n5JQRVnYL0x8Hyos6t0Yj3QCkhLnUhPNPI5qTqJrpvA"

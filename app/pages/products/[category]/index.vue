@@ -124,7 +124,7 @@ const formattedProducts = computed(() => {
       id: (p.meta?.pid || fileName).toString().toUpperCase(), 
       name: p.title || 'Untitled Product',
       cas: String(p.meta?.cas || 'N/A'), // 强制转字符串
-      fema: String(p.meta?.fema || '-'),
+      fema: String(p.meta?.EC_No || '-'),
       grade: p.meta?.grade || 'Food Grade',
       purity: p.meta?.purity || '99%+ Purity',
       molecule_img: p.meta?.molecule_img || '',

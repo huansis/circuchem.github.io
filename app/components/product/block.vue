@@ -72,17 +72,17 @@
                 <span class="font-mono text-[15px] font-bold text-[#00378a]">{{ item.cas }}</span>
               </div>
               <div class="flex flex-col" v-if="item.fema">
-                <span class="text-[10px] font-bold text-slate-300 uppercase">FEMA</span>
+                <span class="text-[10px] font-bold text-slate-300 uppercase">EC No.</span>
                 <span class="font-mono text-[15px] font-bold text-slate-600">{{ item.fema }}</span>
               </div>
             </div>
 
             <!-- 3. 文档下载列 -->
             <div class="flex items-center">
-              <button class="flex items-center gap-1.5 px-3 py-2 border border-slate-100 rounded-lg text-[11px] font-bold text-slate-400 transition-colors hover:border-[#00378a] hover:text-[#00378a]">
+              <!-- <button class="flex items-center gap-1.5 px-3 py-2 border border-slate-100 rounded-lg text-[11px] font-bold text-slate-400 transition-colors hover:border-[#00378a] hover:text-[#00378a]">
                  <span>Details</span>
                 <ArrowUpRight size="16" class="transition-transform duration-300 group-hover/link:translate-x-1" />
-              </button>
+              </button> -->
             </div>
 
             <!-- 4. 询盘按钮列 -->
