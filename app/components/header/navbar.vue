@@ -211,19 +211,33 @@ const navItems = computed(() => {
         href: rootNode.path,
         hasDropdown: true,
         // 数据合并逻辑
-        subItems: rootNode.children?.map((child, index) => {
-             const folderName = child.path.split('/').pop()
-            
-            // 核心修复：根据 slug 查找配置，确保配置和链接一一对应
-            const catConfig = menuConfig.categories?.find(c => c.slug === folderName) || {}
-           
-            return {
-                label: catConfig.label || child.title, // 优先取 config 里的漂亮名称
-                href: child.path,                      // 取 content 里的真实路径
-                description: catConfig.description || '', // 取 config 里的描述
-                image: catConfig.image || ''           // 取 config 里的图片
-            }
-        }) || []
+       subItems: rootNode.children?.map((child) => {
+    // 1. 安全地获取文件夹名
+    // child.path 可能是 /products/C-Series-Copper-Chemicals
+    const segments = child.path.split('/').filter(Boolean);
+    const rawFolderName = segments[segments.length - 1] || '';
+    
+    // 2. 归一化处理：转小写，把空格和横杠都删掉
+    // 这样 "C series Copper" 和 "c-series-copper" 都会变成 "cseriescopper"
+    const normalize = (str) => str.toLowerCase().replace(/[-\s]/g, '');
+    
+    const folderSearchKey = normalize(decodeURIComponent(rawFolderName));
+
+    // 3. 在配置中查找
+    const catConfig = menuConfig.categories?.find(c => {
+        return normalize(c.slug) === folderSearchKey;
+    }) || {};
+
+    // 调试日志：看看现在的匹配情况
+    //console.log(`Folder: ${folderSearchKey} <--> Config: ${catConfig.slug ? normalize(catConfig.slug) : 'NOT FOUND'}`);
+
+    return {
+        label: catConfig.label || child.title, 
+        href: child.path,
+        description: catConfig.description || '',
+        image: catConfig.image || ''
+    }
+})
     }
 
     return [

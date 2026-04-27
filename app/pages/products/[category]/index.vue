@@ -88,18 +88,18 @@ const categoryName = route.params.category as string
 const categorySlug = categoryName as string
 const allCategories = computed(() => [
   { 
-    name: 'Aroma Chemicals', 
-    slug: 'aroma-chemicals', 
-    image: menuConfig[0]?.image || 'https://images.unsplash.com/photo-1532187863486-abf9d3a099a1?auto=format&fit=crop&q=80&w=800' 
+    name: 'C Series Copper Chemicals', 
+    slug: 'C-Series-Copper-Chemicals', 
+    image: menuConfig[0]?.image || '/img/basic-copper-chloride.jpg' 
   },
   { 
-    name: 'Natural Products', 
-    slug: 'natural-products', 
+    name: 'G Series Copper Chemicals', 
+    slug: 'G-Series-Copper-Chemicals', 
     image: menuConfig[1]?.image || 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800' 
   },
   { 
-    name: 'Menthol Synthetic', 
-    slug: 'menthol-synthetic',  
+    name: 'Other Chemicals', 
+    slug: 'Other-Chemicals',  
     image: menuConfig[2]?.image || 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&fit=crop&q=80&w=800' 
   }
 ])

@@ -20,22 +20,22 @@ export default defineAppConfig({
     // 2. 三个分类的具体内容（图片、文字、描述）
     categories: [
       {
-        label: "G series Copper Salts",
-        slug: "Raw Matrial-Waste Copper Liquid",
+        label: "C Series Copper Chemicals",
+        slug: "C-series-Copper-Chemicals",
         description: "High-purity copper salts for feed and industrial applications.",
-        image: "https://framerusercontent.com/images/5umROpQf1LFQZpL5TNpSAKSt0M.jpg"
+        image: "/img/basic-copper-chloride.jpg"
       },
       {
-        label: "C series Copper Salts",
-        slug: "Raw Matrial-Pure Copper",
+        label: "G Series Copper Chemicals",
+        slug: "G-Series-Copper-Chemicals",
         description: "High-purity copper salts for highend industrial applications.",
-        image: "https://media.istockphoto.com/id/1315042436/zh/%E7%85%A7%E7%89%87/%E5%A9%A6%E5%A5%B3%E6%BA%96%E5%82%99%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E6%9C%83%E8%AD%B0%E5%9C%A8%E9%A4%90%E6%A1%8C%E4%B8%8A%E8%88%87%E7%B2%BE%E6%B2%B9%E6%93%B4%E6%95%A3%E5%8A%91%E9%86%AB%E7%94%A8%E8%8D%89%E8%97%A5%E4%B8%8D%E5%90%8C%E9%A1%9E%E5%9E%8B%E7%9A%84%E6%B2%B9%E5%92%8C%E7%B2%BE%E8%8F%AF%E8%8A%B3%E9%A6%99%E7%99%82%E6%B3%95%E5%92%8C%E6%9B%BF%E4%BB%A3%E9%86%AB%E5%AD%B8%E6%A6%82%E5%BF%B5%E8%87%AA%E7%84%B6%E7%99%82%E6%B3%95.jpg?s=2048x2048&w=is&k=20&c=dM2hJdmCbWzgBuD43iPre0S1S9kt2Bfwg2HB3jqLykQ="
+        image: "/img/basic-copper-chloride.jpg"
       },
       {
-        label: "Others",
-        slug: "By products",
+        label: "Other Chemicals",
+        slug: "Other-Chemicals",
         description: "Tailored chemical solutions designed for specific industrial research requirements.",
-        image: "https://media.istockphoto.com/id/1405646574/zh/%E7%85%A7%E7%89%87/translucent-menthol-crystals-and-green-mint-leaves-falling-on-white-background.webp?s=2048x2048&w=is&k=20&c=ckqSAmSzW05UuHudasbLuHwHSKJW__rrw6W858ga5ZQ="
+        image: "/img/basic-copper-chloride.jpg"
       }
     ],
     // 3. 底部认证与位置信息
@@ -294,7 +294,7 @@ export default defineAppConfig({
   },
   "seo": {
     "index": {
-      "title": "copper salts - 首页",
+      "title": "high purity copper salts",
       "description": "Circuchem provides unique understanding and professional expertise in the research, production and supply of high-purity copper salts ",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"

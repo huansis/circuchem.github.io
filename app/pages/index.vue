@@ -51,14 +51,16 @@ const formattedProducts = computed(() => {
     }
   })
 })
+
+
 // seo meta
 useSeoMeta({
-  title: () => siteConfig.value?.seo?.index.title || 'high purity copper salts',
-  description: () => siteConfig.value?.seo?.index.description || 'Default description',
-  ogTitle: () => siteConfig.value?.seo?.index.title || 'Default Title',
-  ogDescription: () => siteConfig.value?.seo?.index.description || 'Default description',
-  ogImage: () => siteConfig.value?.seo?.index.ogImage || '/default-og.jpg',
-  twitterCard: () => siteConfig.value?.seo?.index.twitterCard || 'summary_large_image',
+  title: () => siteConfig?.seo?.index?.title || 'high purity copper salts',
+  description: () => siteConfig?.seo?.index.description || 'Default description',
+  ogTitle: () => siteConfig?.seo?.index.title || 'Default Title',
+  ogDescription: () => siteConfig?.seo?.index.description || 'Default description',
+  ogImage: () => siteConfig?.seo?.index.ogImage || '/default-og.jpg',
+  twitterCard: () => siteConfig?.seo?.index.twitterCard || 'summary_large_image',
 })
 </script>
 

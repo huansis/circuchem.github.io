@@ -71,6 +71,7 @@ export const NuxtRouteAnnouncer: typeof import("../node_modules/.pnpm/nuxt@3.21.
 export const NuxtImg: typeof import("../node_modules/.pnpm/@nuxt+image@2.0.0_db0@0.3.4_better-sqlite3@12.8.0__ioredis@5.10.1_magicast@0.5.2/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue")['default']
 export const NuxtPicture: typeof import("../node_modules/.pnpm/@nuxt+image@2.0.0_db0@0.3.4_better-sqlite3@12.8.0__ioredis@5.10.1_magicast@0.5.2/node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue")['default']
 export const ContentRenderer: typeof import("../node_modules/.pnpm/@nuxt+content@3.12.0_better-sqlite3@12.8.0_magicast@0.5.2/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue")['default']
+export const Button: typeof import("../app/components/ui/button/index")['Button']
 export const FormControl: typeof import("../app/components/ui/form/index")['FormControl']
 export const FormDescription: typeof import("../app/components/ui/form/index")['FormDescription']
 export const FormItem: typeof import("../app/components/ui/form/index")['FormItem']
@@ -81,13 +82,13 @@ export const Form: typeof import("../app/components/ui/form/index")['Form']
 export const FormField: typeof import("../app/components/ui/form/index")['FormField']
 export const FormFieldArray: typeof import("../app/components/ui/form/index")['FormFieldArray']
 export const Input: typeof import("../app/components/ui/input/index")['Input']
-export const Button: typeof import("../app/components/ui/button/index")['Button']
 export const InputGroup: typeof import("../app/components/ui/input-group/index")['InputGroup']
 export const InputGroupAddon: typeof import("../app/components/ui/input-group/index")['InputGroupAddon']
 export const InputGroupButton: typeof import("../app/components/ui/input-group/index")['InputGroupButton']
 export const InputGroupInput: typeof import("../app/components/ui/input-group/index")['InputGroupInput']
 export const InputGroupText: typeof import("../app/components/ui/input-group/index")['InputGroupText']
 export const InputGroupTextarea: typeof import("../app/components/ui/input-group/index")['InputGroupTextarea']
+export const Label: typeof import("../app/components/ui/label/index")['Label']
 export const Select: typeof import("../app/components/ui/select/index")['Select']
 export const SelectContent: typeof import("../app/components/ui/select/index")['SelectContent']
 export const SelectGroup: typeof import("../app/components/ui/select/index")['SelectGroup']
@@ -108,7 +109,6 @@ export const SheetHeader: typeof import("../app/components/ui/sheet/index")['She
 export const SheetTitle: typeof import("../app/components/ui/sheet/index")['SheetTitle']
 export const SheetTrigger: typeof import("../app/components/ui/sheet/index")['SheetTrigger']
 export const Textarea: typeof import("../app/components/ui/textarea/index")['Textarea']
-export const Label: typeof import("../app/components/ui/label/index")['Label']
 export const NuxtPage: typeof import("../node_modules/.pnpm/nuxt@3.21.2_@parcel+watcher@2.5.6_@vue+compiler-sfc@3.5.30_better-sqlite3@12.8.0_cac@6._88d0c5eb87026a6cb0cf0c692e5003ae/node_modules/nuxt/dist/pages/runtime/page")['default']
 export const NoScript: typeof import("../node_modules/.pnpm/nuxt@3.21.2_@parcel+watcher@2.5.6_@vue+compiler-sfc@3.5.30_better-sqlite3@12.8.0_cac@6._88d0c5eb87026a6cb0cf0c692e5003ae/node_modules/nuxt/dist/head/runtime/components")['NoScript']
 export const Link: typeof import("../node_modules/.pnpm/nuxt@3.21.2_@parcel+watcher@2.5.6_@vue+compiler-sfc@3.5.30_better-sqlite3@12.8.0_cac@6._88d0c5eb87026a6cb0cf0c692e5003ae/node_modules/nuxt/dist/head/runtime/components")['Link']
@@ -181,6 +181,7 @@ export const LazyNuxtRouteAnnouncer: LazyComponent<typeof import("../node_module
 export const LazyNuxtImg: LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+image@2.0.0_db0@0.3.4_better-sqlite3@12.8.0__ioredis@5.10.1_magicast@0.5.2/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue")['default']>
 export const LazyNuxtPicture: LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+image@2.0.0_db0@0.3.4_better-sqlite3@12.8.0__ioredis@5.10.1_magicast@0.5.2/node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue")['default']>
 export const LazyContentRenderer: LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+content@3.12.0_better-sqlite3@12.8.0_magicast@0.5.2/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue")['default']>
+export const LazyButton: LazyComponent<typeof import("../app/components/ui/button/index")['Button']>
 export const LazyFormControl: LazyComponent<typeof import("../app/components/ui/form/index")['FormControl']>
 export const LazyFormDescription: LazyComponent<typeof import("../app/components/ui/form/index")['FormDescription']>
 export const LazyFormItem: LazyComponent<typeof import("../app/components/ui/form/index")['FormItem']>
@@ -191,13 +192,13 @@ export const LazyForm: LazyComponent<typeof import("../app/components/ui/form/in
 export const LazyFormField: LazyComponent<typeof import("../app/components/ui/form/index")['FormField']>
 export const LazyFormFieldArray: LazyComponent<typeof import("../app/components/ui/form/index")['FormFieldArray']>
 export const LazyInput: LazyComponent<typeof import("../app/components/ui/input/index")['Input']>
-export const LazyButton: LazyComponent<typeof import("../app/components/ui/button/index")['Button']>
 export const LazyInputGroup: LazyComponent<typeof import("../app/components/ui/input-group/index")['InputGroup']>
 export const LazyInputGroupAddon: LazyComponent<typeof import("../app/components/ui/input-group/index")['InputGroupAddon']>
 export const LazyInputGroupButton: LazyComponent<typeof import("../app/components/ui/input-group/index")['InputGroupButton']>
 export const LazyInputGroupInput: LazyComponent<typeof import("../app/components/ui/input-group/index")['InputGroupInput']>
 export const LazyInputGroupText: LazyComponent<typeof import("../app/components/ui/input-group/index")['InputGroupText']>
 export const LazyInputGroupTextarea: LazyComponent<typeof import("../app/components/ui/input-group/index")['InputGroupTextarea']>
+export const LazyLabel: LazyComponent<typeof import("../app/components/ui/label/index")['Label']>
 export const LazySelect: LazyComponent<typeof import("../app/components/ui/select/index")['Select']>
 export const LazySelectContent: LazyComponent<typeof import("../app/components/ui/select/index")['SelectContent']>
 export const LazySelectGroup: LazyComponent<typeof import("../app/components/ui/select/index")['SelectGroup']>
@@ -218,7 +219,6 @@ export const LazySheetHeader: LazyComponent<typeof import("../app/components/ui/
 export const LazySheetTitle: LazyComponent<typeof import("../app/components/ui/sheet/index")['SheetTitle']>
 export const LazySheetTrigger: LazyComponent<typeof import("../app/components/ui/sheet/index")['SheetTrigger']>
 export const LazyTextarea: LazyComponent<typeof import("../app/components/ui/textarea/index")['Textarea']>
-export const LazyLabel: LazyComponent<typeof import("../app/components/ui/label/index")['Label']>
 export const LazyNuxtPage: LazyComponent<typeof import("../node_modules/.pnpm/nuxt@3.21.2_@parcel+watcher@2.5.6_@vue+compiler-sfc@3.5.30_better-sqlite3@12.8.0_cac@6._88d0c5eb87026a6cb0cf0c692e5003ae/node_modules/nuxt/dist/pages/runtime/page")['default']>
 export const LazyNoScript: LazyComponent<typeof import("../node_modules/.pnpm/nuxt@3.21.2_@parcel+watcher@2.5.6_@vue+compiler-sfc@3.5.30_better-sqlite3@12.8.0_cac@6._88d0c5eb87026a6cb0cf0c692e5003ae/node_modules/nuxt/dist/head/runtime/components")['NoScript']>
 export const LazyLink: LazyComponent<typeof import("../node_modules/.pnpm/nuxt@3.21.2_@parcel+watcher@2.5.6_@vue+compiler-sfc@3.5.30_better-sqlite3@12.8.0_cac@6._88d0c5eb87026a6cb0cf0c692e5003ae/node_modules/nuxt/dist/head/runtime/components")['Link']>
