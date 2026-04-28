@@ -23,19 +23,19 @@ export default defineAppConfig({
         label: "C Series Copper Chemicals",
         slug: "C-series-Copper-Chemicals",
         description: "High-purity copper salts for feed and industrial applications.",
-        image: "/img/basic-copper-chloride.jpg"
+        image: "/img/C-series.png"
       },
       {
         label: "G Series Copper Chemicals",
         slug: "G-Series-Copper-Chemicals",
         description: "High-purity copper salts for highend industrial applications.",
-        image: "/img/basic-copper-chloride.jpg"
+        image: "/img/G-series.png"
       },
       {
         label: "Other Chemicals",
         slug: "Other-Chemicals",
         description: "Tailored chemical solutions designed for specific industrial research requirements.",
-        image: "/img/basic-copper-chloride.jpg"
+        image: "/img/Others.png"
       }
     ],
     // 3. 底部认证与位置信息
