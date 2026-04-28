@@ -72,7 +72,7 @@
                 <span class="font-mono text-[11px] bg-slate-100 text-slate-400 text-center w-[80px] rounded-full  font-bold uppercase tracking-tight">REF: #{{ item.id }}</span>
                 <h4 class="text-[19px] font-extrabold text-[#001f4e] my-1 leading-tight">{{ item.name }}</h4>
                 <div class="flex gap-1.5 mt-2">
-                  <span class="bg-emerald-50 text-emerald-600 border border-emerald-100 text-[9px] px-2 py-0.5 rounded font-bold uppercase tracking-tighter">Food Grade</span>
+                  <span class="bg-emerald-50 text-emerald-600 border border-emerald-100 text-[9px] px-2 py-0.5 rounded font-bold uppercase tracking-tighter">High Purity Grade</span>
                   <span class="bg-blue-50 text-blue-600 border border-blue-100 text-[9px] px-2 py-0.5 rounded font-bold uppercase tracking-tighter ml-1.5">99%+ Purity</span>
                 </div>
               </div>
