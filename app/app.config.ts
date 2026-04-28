@@ -274,8 +274,8 @@ stats: [
   },
   "contact": {
     "tag": "Contact Us",
-    "title": "Start your next",
-    "sptext": "project",
+    "title": "Start your",
+    "sptext": "Cooperation",
     "contactInfo": [
       { icon: 'Mail', label: 'Email', value: 'info@circuchem.com' },
       { icon: 'Phone', label: 'Phone', value: '+86 138 0255 3405' },
