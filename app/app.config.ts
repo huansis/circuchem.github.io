@@ -207,7 +207,6 @@ stats: [
   "Founded as a professional manufacturer of copper and zinc chemicals, we have focused on high-quality inorganic salts for many years. With rich production experience and advanced technology, we have built a good reputation in feed additives and industrial chemical markets.",
   "We strictly control raw materials, production process and finished product testing to ensure stable and reliable product quality. Our products are widely used in feed, electroplating, industrial catalysts and other fields, and exported to all over the world with professional service and stable supply capacity."
 ],
-    ],
     "gallery": [
       'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80',
       'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80',
