@@ -11,7 +11,7 @@
          {{ siteConfig?.contact?.title || 'Connect with' }} <span class="text-blue-600">{{ siteConfig?.contact?.sptext || 'Our Experts' }}</span>
         </h1>
         <p v-scroll-reveal="{ delay: 0.15 }" class="text-slate-500 max-w-xl text-lg font-medium">
-          Whether you need a custom synthesis or a bulk quotation, our technical team is ready to assist you.
+          Whether you need product customization or bulk inquiry, our dedicated team will provide timely and professional support.
         </p>
       </div>
 
