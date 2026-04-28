@@ -790,8 +790,8 @@ const appConfig0 = defineAppConfig({
     ],
     "secondblock": {
       tag: "Statistics",
-      titleone: "See Your",
-      titletwo: "Wealth Grow"
+      titleone: "Stable",
+      titletwo: "Quality & Service"
     },
     teamTag: "Team",
     teamTitleone: "See Our",

@@ -194,18 +194,19 @@ export default defineAppConfig({
     "titleTwo": "copper chemicals",
     "titleThree": "with worldwide industries.",
     "description": "Focused on quality control and sustainable supply, we manufacture premium mineral chemicals for feed additives, electroplating and fine chemical industries.",
-    stats: [
-      { id: 1, type: 'icon', icon: 'xxx', variant: 'outline', row: 1 },
-      { id: 2, type: 'stat', value: '98%', label: 'Transactions are processed successfully', variant: 'soft', trend: 'up', row: 1 },
-      { id: 3, type: 'icon', icon: 'xxx', variant: 'outline', row: 1 },
-      { id: 4, type: 'stat', value: '$10K+', label: "Our users' average saving amount", variant: 'soft', row: 2 },
-      { id: 5, type: 'icon', icon: 'plus', variant: 'outline', row: 2 },
-      { id: 6, type: 'stat', value: '50%', label: 'Effective in financial growth than before', variant: 'gradient', trend: 'up', row: 2 },
-    ],
-    "storyTitle": "Our Story",
-    "storyParagraphs": [
-      "Founded in the heart of global commerce, [Company Name] has evolved from a specialized sourcing agent into a comprehensive international trade powerhouse. For over six years, we have stood at the intersection of supply and demand, providing seamless connectivity for businesses across the globe. Our journey is built on a foundation of unwavering integrity and a deep understanding of market dynamics.",
-      "With a robust network spanning over 50 countries and regions, we facilitate the flow of high-quality goods across continents. We don't just move products; we manage complex supply chains. From rigorous factory audits and quality control to optimized logistics and customs clearance, our team ensures that every link in the chain is optimized for efficiency and reliability."
+stats: [
+  { id: 1, type: 'icon', icon: 'flask', variant: 'outline', row: 1 },
+  { id: 2, type: 'stat', value: '20+', label: 'Years of chemical manufacturing experience', variant: 'soft', trend: 'up', row: 1 },
+  { id: 3, type: 'icon', icon: 'earth', variant: 'outline', row: 1 },
+  { id: 4, type: 'stat', value: '60+', label: 'Countries and regions we export to', variant: 'soft', row: 2 },
+  { id: 5, type: 'icon', icon: 'check', variant: 'outline', row: 2 },
+  { id: 6, type: 'stat', value: '99%', label: 'Customer satisfaction and repeat orders', variant: 'gradient', trend: 'up', row: 2 },
+],
+"storyTitle": "Our Story",
+"storyParagraphs": [
+  "Founded as a professional manufacturer of copper and zinc chemicals, we have focused on high-quality inorganic salts for many years. With rich production experience and advanced technology, we have built a good reputation in feed additives and industrial chemical markets.",
+  "We strictly control raw materials, production process and finished product testing to ensure stable and reliable product quality. Our products are widely used in feed, electroplating, industrial catalysts and other fields, and exported to all over the world with professional service and stable supply capacity."
+],
     ],
     "gallery": [
       'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80',
@@ -214,8 +215,8 @@ export default defineAppConfig({
     ],
     "secondblock": {
       tag: 'Statistics',
-      titleone: 'See Your',
-      titletwo: 'Wealth Grow',
+      titleone: 'Stable',
+      titletwo: 'Quality & Service',
     },
     teamTag: 'Team',
     teamTitleone: 'See Our',
