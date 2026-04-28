@@ -125,7 +125,7 @@ const formattedProducts = computed(() => {
       name: p.title || 'Untitled Product',
       cas: String(p.meta?.cas || 'N/A'), // 强制转字符串
       fema: String(p.meta?.EC_No || '-'),
-      grade: p.meta?.grade || 'Food Grade',
+      grade: p.meta?.grade || 'High Purity Grade',
       purity: p.meta?.purity || '99%+ Purity',
       molecule_img: p.meta?.molecule_img || '',
       path: p.path
