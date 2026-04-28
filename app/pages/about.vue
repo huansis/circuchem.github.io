@@ -51,11 +51,25 @@ import {
 } from 'lucide-vue-next'
 
 const myImages = [
-  'https://img1.baidu.com/it/u=160031104,989826552&fm=253&fmt=auto&app=138&f=JPEG?w=375&h=500',
-  'https://img2.baidu.com/it/u=2690620702,4170729255&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889',
-  'https://img2.baidu.com/it/u=1792296073,2641103574&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1419',
-  'https://media.istockphoto.com/id/1137564607/zh/%E7%85%A7%E7%89%87/%E8%85%90%E6%AE%96%E8%B3%AA%E5%92%8C%E6%89%8B%E6%88%B4%E8%97%8D%E8%89%B2%E6%A9%A1%E8%86%A0%E6%89%8B%E5%A5%97%E6%89%8B%E6%8C%81%E5%A4%A9%E7%84%B6%E6%9C%89%E6%A9%9F%E6%8F%90%E5%8F%96%E7%93%B6-%E8%8A%B3%E9%A6%99%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A0%94%E7%A9%B6%E5%9C%A8%E5%AF%A6%E9%A9%97%E5%AE%A4%E8%A9%A6%E9%A9%97.jpg?s=612x612&w=0&k=20&c=o9I53rptRfTo_C1DqpqBRiaipAUD0Brzq13YB0zNlNc=',
-  'https://img0.baidu.com/it/u=2596714907,225402579&fm=253&fmt=auto&app=138&f=JPEG?w=756&h=500',
+  '/img/ISO9001.jpg',
+  '/img/ISO14001.jpg',
+  '/img/ISO45001.jpg',
+  '/img/01.jpg',
+  '/img/02.png',
+  '/img/03.jpg',
+  '/img/04.jpg',
+  '/img/05.jpg'
+  '/img/06.jpg',
+  '/img/07.jpg',
+  '/img/08.jpg',
+  '/img/09.jpg',
+  '/img/10.jpg',  
+  '/img/11.jpg',
+  '/img/12.jpg',
+  '/img/13.jpg',
+  '/img/14.jpg',  
+  '/img/15.jpg',
+  '/img/16.jpg',
 ]
 
 
