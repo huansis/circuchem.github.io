@@ -3,7 +3,7 @@ export default defineAppConfig({
   "base": {
     "email": "zhuhuan@circuchem.com",
     "companyName": "CIRCUCHEM",
-    "phone": "+86 (138) 02553405",
+    "phone": "+86 (177) 27901552",
     "address": "A509,LANGGUANG TECH PARK, Nanshan Dist, Shenzhen, Guangdong, PRC"
   },
   "logo": {
@@ -277,11 +277,11 @@ stats: [
     "sptext": "Cooperation",
     "contactInfo": [
       { icon: 'Mail', label: 'Email', value: 'info@circuchem.com' },
-      { icon: 'Phone', label: 'Phone', value: '+86 138 0255 3405' },
+      { icon: 'Phone', label: 'Phone', value: '+86 177 2790 1552' },
       { icon: 'MapPin', label: 'Office', value: 'Guangdong/Jiangxi, China & Thailand' }
     ],
     "email": "info@circuchem.com",
-    "phone": "+86 138 0255 3405",
+    "phone": "+86 17727901552",
     "address": "No509, Langguang Tech Park, Nanshan Dist, Shenzhen, Guangdong, China"
   },
   "footer": {
