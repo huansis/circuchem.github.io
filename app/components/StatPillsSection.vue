@@ -8,7 +8,7 @@
         </div>
         <h1 v-scroll-reveal="{ delay: 0.2 }"
           class="text-[40px] md:text-[60px] font-light leading-[1.1] tracking-tight mb-6 text-[#001f4e]">
-        {{ siteConfig?.about?.secondblock?.titleone || 'We bridge the gap between ' }}<br> <span class="text-blue-500">{{ siteConfig?.about?.secondblock?.titletwo || 'vision' }}</span>
+        {{ siteConfig?.about?.secondblock?.titleone || 'We link high-quality ' }}<br> <span class="text-blue-500">{{ siteConfig?.about?.secondblock?.titletwo || 'vision' }}</span>
         </h1>
      
       </div>

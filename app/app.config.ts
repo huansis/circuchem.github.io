@@ -190,10 +190,10 @@ export default defineAppConfig({
   },
   "about": {
     "tag": "WHO WE ARE",
-    "titleOne": "We bridge the gap between",
-    "titleTwo": "vision",
-    "titleThree": "and reality.",
-    "description": "Driven by passion and precision, we craft digital experiences that redefine industry standards and empower global growth.",
+    "titleOne": "We link high-quality",
+    "titleTwo": "copper chemicals",
+    "titleThree": "with worldwide industries.",
+    "description": "Focused on quality control and sustainable supply, we manufacture premium mineral chemicals for feed additives, electroplating and fine chemical industries.",
     stats: [
       { id: 1, type: 'icon', icon: 'xxx', variant: 'outline', row: 1 },
       { id: 2, type: 'stat', value: '98%', label: 'Transactions are processed successfully', variant: 'soft', trend: 'up', row: 1 },

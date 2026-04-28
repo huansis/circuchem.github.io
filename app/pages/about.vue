@@ -11,7 +11,7 @@
         </div>
         <h1 v-scroll-reveal="{ delay: 0.2 }"
           class="text-[40px] md:text-[60px] font-light leading-[1.1] tracking-tight mb-6 text-[#001f4e]">
-        {{ siteConfig?.about?.titleOne || 'We bridge the gap between ' }} <span class="text-blue-500">{{ siteConfig?.about?.titleTwo || 'vision' }}</span> {{ siteConfig?.about?.titleThree || 'and reality.' }}
+        {{ siteConfig?.about?.titleOne || 'We link high-quality copper chemicals with worldwide buyers. ' }} <span class="text-blue-500">{{ siteConfig?.about?.titleTwo || 'vision' }}</span> {{ siteConfig?.about?.titleThree || 'and reality.' }}
         </h1>
         <p v-scroll-reveal="{ delay: 0.3 }"
           class="text-[#001f4e]/90  text-lg max-w-2xl font-extralight leading-relaxed">
