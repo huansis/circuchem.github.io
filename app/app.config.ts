@@ -273,7 +273,7 @@ stats: [
   },
   "contact": {
     "tag": "Contact Us",
-    "title": "Start your",
+    "title": "Start our",
     "sptext": "Cooperation",
     "contactInfo": [
       { icon: 'Mail', label: 'Email', value: 'info@circuchem.com' },
