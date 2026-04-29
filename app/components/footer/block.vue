@@ -52,7 +52,7 @@
         <div class="text-black text-[15px] font-light flex flex-col md:flex-row gap-1 md:gap-2">
           <span>© {{ new Date().getFullYear() }} Copyright — {{ siteConfig?.base?.companyName }}</span>
           <span class="hidden md:inline text-slate-300">|</span>
-          <span class="text-zinc-500">Designed by <a href="https://www.daddytemplate.com/" target="_blank">DaddyTemplate</a></span>
+          <span class="text-zinc-500">Designed by <a href="https://www.circuchem.com/" target="_blank">circuchem</a></span>
         </div>
 
         <!-- 中间社交图标 (圆形细线风格) -->

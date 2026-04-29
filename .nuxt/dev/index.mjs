@@ -863,9 +863,9 @@ const appConfig0 = defineAppConfig({
   "footer": {
     "emailmessage": "Request a Product Sample",
     "socials": [
-      { label: "X", href: "https://x.com/Zhuxiaoming1987" },
-      { label: "Facebook", href: "https://facebook.com/daddytemplate" },
-      { label: "Discord", href: "#" }
+      { label: "X", href: "" },
+      { label: "Facebook", href: "" },
+      { label: "Discord", href: "" }
     ]
   },
   "seo": {

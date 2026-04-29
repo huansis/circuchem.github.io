@@ -38,7 +38,7 @@
           
           <p v-scroll-reveal="{ delay: 0.3 }" 
              class="hidden 2xl:block text-base lg:text-lg leading-[1.6] text-white/85 mb-8 lg:mb-10 max-w-[580px]">
-            {{ siteConfig?.index?.hero?.description || 'DaddyTemplate is a global business platform that helps businesses to grow and succeed.' }}
+            {{ siteConfig?.index?.hero?.description || '' }}
           </p>
           
           <NuxtLink v-scroll-reveal="{ delay: 0.3 }" 
